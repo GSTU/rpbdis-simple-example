@@ -1,0 +1,158 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    width: 80%;
+    margin:0px auto 0px auto;
+    color: #232323;
+    background-color: #71a6cf;
+}
+
+
+header, footer, nav, section {
+    display: block;
+}
+
+
+header{
+    margin: 0px 0px 0px 0px;
+    padding: 1px 0px 0px 5px;
+    height:70px;
+    /*background-color: #258bc6;*/
+    /*background: linear-gradient(to bottom right, #258bc6, #2983b7);*/
+    background:linear-gradient(270deg, #258bc6, #3579a0);
+}
+
+#titl{
+    margin: 0px 0px 0px 0px;
+    font-size:40px;
+    font-style:italic;
+    font-weight:bolder;
+    color: #ddd;
+}
+
+.logo{
+    height:60px;
+    width: 60px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+nav{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 30px;
+    /*background-color: #3c97cc;*/
+    background: linear-gradient(to right, #3689ba, #3c97cc);
+}
+
+.navButton{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+    font-size:20px;
+    text-align:center;
+    color: #ddd;
+    background-color: #3689ba;
+
+}
+
+nav a:hover{
+    color: #9ec7ee;
+    background-color: #65a2d1;
+    text-decoration:none;
+}
+
+nav a:active{
+    color: #a84a4a;
+    background-color: #80b3db;
+    text-decoration:dotted;
+}
+
+section{
+    margin: 0px 0px 0px 0px;
+    padding: 5px 5px 0px 5px;
+    height:100%;
+    background-color:#fee;
+}
+footer{
+    margin: 0px 0px 0px 0px;
+    padding: 5px 5px 0px 5px;
+    height:30px;
+    background-color:#258bc6;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    color:#fee;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+#createButton{
+    float:right;
+}
+
+#cB{
+    height:33px;
+    font-size: 20px;
+    font-weight:700;
+    font-style: italic;
+    color: #6592bd;
+}
+
+#usersTable{
+    border-spacing: 0px;
+    width:100%;
+}
+
+#headTable{
+    background: #6592bd;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
